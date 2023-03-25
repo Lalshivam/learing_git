@@ -1,0 +1,42 @@
+never install // 3gbps 
+
+
+ls
+git status
+git commit
+i :wq
+touch filename.type
+git add -A  //to add all files to staging area
+git commit -m "added/updated more files"
+clear  //clear screen
+git checkout //update to previous changed
+git checkout -f   //all files to previous changed
+git log   //author,date,commit messgages
+git log -p -1   //show last one commits and changes{q to quit}
+git diff   //compares working directory to staging area
+git diff --staged  //compares staging area to last commit
+
+// directly commit
+git commit -a -m "Skipped staging area"
+
+//canceling command
+^C
+// to remove a file
+git rm waste.html    //delete file and remove from staging area
+git rm --cached waste.html  //remove from staging area
+git status -s  // sumarised status
+touch .gitignore // to create a ignore containing file names in directory('/'to only ignore in gitignore and not in other directories,*.cpp to all .cpp files , ignore/ to ignore whole folder or directories )
+
+//branch :replica of main branch
+ git branch feature1   //to make a branch feature1
+git branch   //to show all branchs
+git checkout feature1 // to switch branch
+git merge feature1 // to merge feature1 in main branch
+
+git checkout -b flaskIntegration  //to create and switch branch simultaneously
+
+
+
+
+
+
