@@ -36,7 +36,17 @@ git merge feature1 // to merge feature1 in main branch
 git checkout -b flaskIntegration  //to create and switch branch simultaneously
 
 
+git remote add origin <URL of repo available>  //added local repo to host on remote repo using origin as alias of URL
+
+git remote // to show remote repos
+
+git remote -v  //to show URL from where to fetch and push 
+
+git push origin master // to push master branch in origin
+
+git remote set-url origin <URL>
+
+git clone <URL> <folder_name> //to clone repo from github to folder 
 
 
-
-
+>
