@@ -85,3 +85,19 @@ public:
         return c;
     }
 };
+                              7. Reverse Integer
+class Solution {
+public:
+    int reverse(int x) {
+        long c=0;
+        while(x){
+            c=c*10+x%10;
+            x=x/10;
+        }
+        if(c>INT_MAX || c<INT_MIN){
+            return 0;
+        }
+        return int(c);
+    
+    }
+};
