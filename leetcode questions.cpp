@@ -1,4 +1,4 @@
-                     //1480. Running Sum of 1d Array
+     //1480. Running Sum of 1d Array
 
 class Solution {
 public:
@@ -15,7 +15,7 @@ public:
         return res;
     }
 };
-                      //1672. Richest Customer Wealth
+      //1672. Richest Customer Wealth
 
 class Solution {
 public:
@@ -37,7 +37,7 @@ public:
     }
 };                    
     
-                         //412. Fizz Buzz
+    //412. Fizz Buzz
 
 class Solution {
     vector<string> str;
@@ -65,7 +65,7 @@ for(int i=1;i<=n;i++){
     }
 };
      
-                      //1342. Number of Steps to Reduce a Number to Zero
+    //1342. Number of Steps to Reduce a Number to Zero
 
 class Solution {
 public:
@@ -85,7 +85,7 @@ public:
         return c;
     }
 };
-                              7. Reverse Integer
+    //7. Reverse Integer
 class Solution {
 public:
     int reverse(int x) {
@@ -101,3 +101,25 @@ public:
     
     }
 };
+
+    //9. Palindrome Number 
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        long n,c=0;
+        n=x;
+        if(n>=0){while(x){
+            c=(c*10)+(x%10);
+            x=x/10;
+        }
+        if(c==n){
+            return true;
+        }
+        else{
+            return false;
+        }}
+        else{
+            return false;
+        }
+    }
+};   
