@@ -307,7 +307,14 @@ int maxi=*max_element(a,a+n);
 
 
 
+// address operator -> &
+// pointer store address
+int *ptr=&i;
 
+arr[i]=*(arr + i)
+i[arr]= *(i+arr);
+
+{(-;}
 
 
 
